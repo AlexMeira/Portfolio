@@ -133,6 +133,7 @@ body {
 .sobre .sobre-texto h2,p {
     font-size: 50px;
     font-weight: 300;
+    padding-top: 20px;
 } 
 
 .sobre .sobre-texto span {
