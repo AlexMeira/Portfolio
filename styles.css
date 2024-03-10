@@ -202,8 +202,8 @@ body {
 
 .img-port {
     border-radius: 20px;
-    width: 360px;
-    height: 460px;
+    width: 560px;
+    height: 450px;
     background-size: cover;
     background-position: 100% 0%;
     transition: 2s;
