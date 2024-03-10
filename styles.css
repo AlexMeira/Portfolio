@@ -101,7 +101,7 @@ body {
 
 .container-sobre{
     background-color: #271979;
-    height: 1200px;
+    height: 120vh;
     width:100vw;
     padding-left: 0px;
 }
@@ -267,9 +267,10 @@ footer h4{
         height:350px;
         width:350px ; 
    }
-   .container-sobre{
-        height: 1000px;
+   .container-sobre {
+    height: 90vh;
    }
+   
    .sobre .sobre-infos {
         display: flex;
         flex-wrap: nowrap;
@@ -299,6 +300,9 @@ footer h4{
 
    .sobre .sociais {
         flex-wrap: wrap;
+   }
+   .academico p{
+        font-size: 25px;
    }
    .portfolio-interface {
         flex-direction: column;
