@@ -12,7 +12,6 @@ body {
 /* cabecalho  */
 .cabecalho {
     display: flex;
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -64,15 +63,15 @@ body {
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
-    padding-left: 100px;
+    padding-left: 80px;
 
 }
 .home .texto-home p{
-    font-size: 100px;
+    font-size: 80px;
 }
 
 .home .texto-home span{
-    font-size: 120px;
+    font-size: 100px;
     font-family: 'Courier New', Courier, monospace;
     color: black;
 }
@@ -102,7 +101,7 @@ body {
 
 .container-sobre{
     background-color: #271979;
-    height: 110vh;
+    height: 1200px;
     width:100vw;
     padding-left: 0px;
 }
@@ -149,7 +148,8 @@ body {
 }
 
 .sobre .sobre-infos p{
-    font-size: 32px;
+    font-size: 23px;
+    word-break: break-word;
 }
 
 .sobre .sobre-infos h3{
@@ -202,7 +202,7 @@ body {
 
 .img-port {
     border-radius: 20px;
-    width: 560px;
+    width: 500px;
     height: 450px;
     background-size: cover;
     background-position: 100% 0%;
@@ -240,4 +240,83 @@ footer h4{
 }
 .contatos-sociais {
     padding: 5%;
+}
+
+ @media screen and (max-width: 1055px){
+    .cabecalho{
+    display: flex;
+    justify-content: center;
+    height: 22vh;
+    }
+    .menu-cabecalho {
+        display: none;
+    }
+
+    .home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+    
+    .home .texto-home{
+        display: none;
+    }
+    .home .texto-home p{
+        font-size: 70px;
+        text-align: justify;
+    }
+    .home .imagem-home img{
+        height:350px;
+        width:350px ; 
+   }
+   .container-sobre{
+        height: 1000px;
+   }
+   .sobre .sobre-infos {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding-left: 4.5%;
+        margin: 5%;
+        flex-direction: column;
+   }
+
+   .sobre .sobre-texto h2, p{
+        font-size: 20px;
+   }
+   .sobre .sobre-texto span {
+        font-size: 20px;
+   }
+
+   .sobre .sobre-infos h3{
+        font-size: 20px;
+   }
+   .sobre .sobre-infos p{
+        font-size: 20px;
+        word-break: break-word;
+        text-align: center;
+   }
+
+   .sobre .sociais {
+        flex-wrap: wrap;
+   }
+   .portfolio-interface {
+        flex-direction: column;
+        align-items: center;
+   }
+
+   .portfolio-interface .img-port{
+        width: 300px;
+        height: ;
+   }
+   .contatos-links {
+        flex-wrap: wrap;
+   }
+
+   .contatos-sociais img{
+        width: 60px;
+   } 
+   .contatos-sociais p{
+        font-size: 15px;
+   }
 }
